@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#menu{
+    background-color: black;
+    height: 70px;
+    color: rgb(220, 235, 156);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20;
+}
+#COLCHONES{
+    background-color: rgb(11, 121, 121);
+    height: 500px;
+    text-align: center;
+    color: rgb(60, 60, 94);
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+#ALMUHADAS{
+    background-color: rgb(66, 18, 121);
+    height: 500px;
+    text-align: center;color: rgb(17, 17, 73);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#SABANAS{
+    background-color: rgb(12, 214, 29);
+    height: 500px;
+    text-align: center;
+    color: rgb(98, 98, 230);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#informacion{
+    background-color: rgb(150, 150, 209);
+    height: 400px;
+    text-align: center;
+    color: rgb(3, 66, 66);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 30%;
+}
+#ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(235, 202, 202);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(180, 172, 226);
+  }
+  .row > .column {
+    padding: 0 8px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+  }
+  
+  
+  .modal-content {
+    position: relative;
+    background-color: #f1e4e4;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+  }
+  
+  .close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: rgb(197, 194, 194);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+
+  .mySlides {
+    display: none;
+  }
+  
+  
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  
+  
+  img.demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  
+  img.hover-shadow {
+    transition: 0.3s;
+  }
+  
+  .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+#img1{width: 50px;
+    height: 50px;
+    border-radius: 20%;
+    float:right;
+    padding: 10px;
+}
+#form {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
